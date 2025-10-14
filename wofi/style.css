@@ -1,0 +1,21 @@
+window {
+	font-size: 20px;
+	font-family: "JetBrainsMonoNerdFontMono-Regular";
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 6px;
+	font-weight: bold;
+}
+
+#input{
+	background-color: rgba(50,50,50,0.5);	
+}
+
+#text:selected {
+	color: #FFA500 ;
+}
+
+#entry:selected {
+	background-color: transparent
+}
+

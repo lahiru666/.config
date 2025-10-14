@@ -1,0 +1,13 @@
+#clock
+#timestr=%R
+#datestr=%a, %e of %B
+font= "JetBrainsMonoNerdFontMono-Regular"
+font-size= 24
+#fade-in=3
+indicator-radius=200
+indicator-caps-lock
+ring-color=#7fbaf0
+inside-color=000000
+show-keyboard-layout
+
+image=/home/lahiru/.config/wallpapers/lock.jpg
