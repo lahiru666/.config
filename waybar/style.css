@@ -1,7 +1,7 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: "JetBrainsMonoNerdFontMono-Bold", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     border-radius: 10px;
     font-weight: bold;
 }
@@ -124,6 +124,7 @@ button:hover {
 #mode,
 #idle_inhibitor,
 #scratchpad,
+#custom-avatar,
 /* #power-profiles-daemon,*/
 #bandwidth_mon,
 #mpd {
@@ -192,6 +193,21 @@ button:hover {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+#custom-avatar {
+    background-color: #000000;
+    color	: #ffffff;
+    margin	: 8 5px;
+    border-radius: 6px;
+}
+#custom-wheather {
+    background-color: #000000;
+    color	: #ffffff;
+    margin	: 8 5px;
+    padding	: 4px;
+    border-radius: 6px;
+}
+
+
 
 /*#power-profiles-daemon {
     padding-right: 15px;
@@ -311,6 +327,7 @@ label:focus {
     margin:  8 4px;
     border-radius: 6px;
 }
+
 
 #tray > .passive {
     -gtk-icon-effect: dim;

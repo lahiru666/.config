@@ -11,6 +11,8 @@
         "sway/mode",
 //        "sway/scratchpad",
         "custom/media",
+	"custom/avatar",
+	"custom/wheather",
 	"cpu",
 	"memory",
 //	"sway/window",
@@ -106,6 +108,18 @@
             "deactivated": ""
         }
     },
+    "custom/avatar":{
+	"format": "🌀 {}",
+	"tooltip-format":"{}",
+	"format-alt": "{whoami}",
+	"exec":"whoami | tr '[:lower:]' '[:upper:]'",
+	"interval": 1
+},
+   "custom/wheather":{
+	"format": "{}",
+	"exec":"curl -s wttr.in/gonahena?format=4 | awk '{print $1$2'} | tr '[:lower:]' '[:upper:]'",
+	"interval": 1
+},
     "tray": {
         // "icon-size": 21,
         "spacing": 10
