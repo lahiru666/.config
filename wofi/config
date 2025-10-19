@@ -1,2 +1,5 @@
 allow_images=true
 prompt=Search
+width=25%
+height=70%
+location=right

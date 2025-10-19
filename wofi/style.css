@@ -5,6 +5,7 @@ window {
 	color: #ffffff;
 	border-radius: 6px;
 	font-weight: bold;
+	border: 4px solid #ffffff;
 }
 
 #input{

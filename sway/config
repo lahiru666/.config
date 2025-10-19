@@ -42,7 +42,7 @@ gaps outer 8
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/lahiru/.config/wallpapers/bike.jpg fill
+output * bg /home/lahiru/.config/wallpapers/rain.png fill
 #exec swaybg -i /home/lahiru/.config/wallpapers/rain.png
 #
 # Example configuration:

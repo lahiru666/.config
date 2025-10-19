@@ -112,13 +112,12 @@
 	"format": "🌀 {}",
 	"tooltip-format":"{}",
 	"format-alt": "{whoami}",
-	"exec":"whoami | tr '[:lower:]' '[:upper:]'",
-	"interval": 1
+	"exec":"whoami | tr '[:lower:]' '[:upper:]'"
 },
    "custom/wheather":{
 	"format": "{}",
 	"exec":"curl -s wttr.in/gonahena?format=4 | awk '{print $1$2'} | tr '[:lower:]' '[:upper:]'",
-	"interval": 1
+	"interval": 3600
 },
     "tray": {
         // "icon-size": 21,
