@@ -109,14 +109,14 @@
         }
     },
     "custom/avatar":{
-	"format": "🌀 {}",
+	"format": " 🌀 {} ",
 	"tooltip-format":"{}",
 	"format-alt": "{whoami}",
 	"exec":"whoami | tr '[:lower:]' '[:upper:]'"
 },
    "custom/wheather":{
-	"format": "{}",
-	"exec":"curl -s wttr.in/gonahena?format=4 | awk '{print $1$2'} | tr '[:lower:]' '[:upper:]'",
+	"format": " {} ",
+	"exec":"curl -s wttr.in/gonahena?format=4 | awk '{print $1$2}' | tr '[:lower:]' '[:upper:]'",
 	"interval": 3600
 },
     "tray": {
@@ -190,7 +190,7 @@
         "interval": 1,
 //	"format-wifi": "{essid} ({signalStrength}%) " ,
 	"format-wifi":" {essid} ᯤ",
-        "format-ethernet": "{ifname}  🖧",
+        "format-ethernet": "{ifname} 🖧",
         "tooltip-format": "{essid} {ifname} via {gwaddr} using {ipaddr} / {cidr} ",
         "format-linked": "{ifname} (No IP) ⚠",
         "format-disconnected": "Disconnected ✖",

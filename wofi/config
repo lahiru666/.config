@@ -1,5 +1,9 @@
 allow_images=true
 prompt=Search
 width=25%
-height=70%
-location=right
+height=50%
+location=center
+
+[general]
+style = /home/lahiru/.config/wofi/style.css
+
