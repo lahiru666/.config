@@ -42,7 +42,7 @@ gaps outer 8
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/lahiru/.config/wallpapers/rain.png fill
+output * bg /home/lahiru/.config/wallpapers/hands.png fill
 #exec swaybg -i /home/lahiru/.config/wallpapers/rain.png
 #
 # Example configuration:
@@ -268,11 +268,17 @@ bindsym $mod+r mode "resize"
 
 #
 # Status Bar:
-#
+
+#kill status bar
+bindsym $mod+F5 exec pkill waybar
+
+#start waynar
+bindsym $mod+F6 exec  waybar &
+
 # Read `man 5 sway-bar` for more information about this section.
-bar {
-	swaybar_command waybar 
-}
+#bar {
+#	swaybar_command waybar 
+#}
 #include /etc/sway/config.d/*
 
 # Borders themes 
