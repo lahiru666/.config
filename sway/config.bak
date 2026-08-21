@@ -7,7 +7,8 @@
 ### Variables
 
 #font
-font pango:JetBrainsMono Nerd Font 10
+#font pango:JetBrainsMonoNerdFontMono-Regular 12
+font pango:Ariel 12
 
 
 # Logo key. Use Mod1 for Alt.
@@ -280,14 +281,13 @@ bindsym $mod+F6 exec  waybar &
 #}
 #include /etc/sway/config.d/*
 
-# Borders themes — Gruvbox Dark
+# Borders themes 
 # Property Name             Border  BG      Text    Indicator Child-border
-client.focused              #fe8019 #282828 #ebdbb2 #fe8019   #fe8019
-client.focused_inactive     #504945 #282828 #a89984 #504945   #504945
-client.unfocused            #3c3836 #282828 #928374 #3c3836   #3c3836
-client.urgent                #fb4934 #282828 #ebdbb2 #fb4934   #fb4934
-client.placeholder          #504945 #282828 #ebdbb2 #504945   #504945
-client.background            #282828
+client.focused              #ffffff #000000 #ffffff #000000   #ffffff
+client.focused_inactive     #ffffff #2f343f #d8dee8 #ffffff   #000000
+client.unfocused            #000000 #000000 #ffffff #ffffff   #000000
+client.urgent               #2f343f #2f343f #d8dee8 #2f343f   #2f343f
+client.placeholder          #2f343f #2f343f #d8dee8 #2f343f   #2f343f
 
 #getting rid of boder in applications
 default_border pixel
