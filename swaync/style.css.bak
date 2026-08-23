@@ -1,16 +1,16 @@
-@define-color cc-bg rgba(40, 40, 40, 0.7);
-@define-color noti-border-color rgba(235, 219, 178, 0.15);
-@define-color noti-bg rgba(60, 56, 54, 0.8);
-@define-color noti-bg-opaque rgb(60, 56, 54);
-@define-color noti-bg-darker rgb(29, 32, 33);
-@define-color noti-bg-hover rgb(80, 73, 69);
-@define-color noti-bg-hover-opaque rgb(80, 73, 69);
-@define-color noti-bg-focus rgba(102, 92, 84, 0.6);
-@define-color noti-close-bg rgba(235, 219, 178, 0.1);
-@define-color noti-close-bg-hover rgba(235, 219, 178, 0.15);
-@define-color text-color rgb(235, 219, 178);
-@define-color text-color-disabled rgb(146, 131, 116);
-@define-color bg-selected rgb(254, 128, 25);
+@define-color cc-bg rgba(46, 46, 46, 0.7);
+@define-color noti-border-color rgba(255, 255, 255, 0.15);
+@define-color noti-bg rgba(48, 48, 48, 0.8);
+@define-color noti-bg-opaque rgb(48, 48, 48);
+@define-color noti-bg-darker rgb(38, 38, 38);
+@define-color noti-bg-hover rgb(56, 56, 56);
+@define-color noti-bg-hover-opaque rgb(56, 56, 56);
+@define-color noti-bg-focus rgba(68, 68, 68, 0.6);
+@define-color noti-close-bg rgba(255, 255, 255, 0.1);
+@define-color noti-close-bg-hover rgba(255, 255, 255, 0.15);
+@define-color text-color rgb(255, 255, 255);
+@define-color text-color-disabled rgb(150, 150, 150);
+@define-color bg-selected rgb(0, 128, 255);
 .notification-row {
   outline: none;
 }
@@ -109,7 +109,7 @@
 .notification-row .notification-background .notification .notification-default-action .notification-content .app-icon {
   /* Notification app icon (only visible when the primary image is set) */
   -gtk-icon-effect: none;
-  -gtk-icon-shadow: 0 1px 4px #1d2021;
+  -gtk-icon-shadow: 0 1px 4px black;
   margin: 6px;
 }
 
@@ -149,7 +149,7 @@
 .notification-row .notification-background .notification .notification-default-action .notification-content .body-image {
   /* The "extra" optional bottom notification image */
   margin-top: 4px;
-  background-color: #ebdbb2;
+  background-color: white;
   border-radius: 12px;
   -gtk-icon-effect: none;
 }
@@ -263,23 +263,23 @@
   background: @cc-bg;
   color: @text-color;
   border-radius: 12px;
-  border: 4px solid #fe8019;
+  border: 4px solid #ffffff;
 }
 
 .control-center .control-center-list-placeholder {
   /* The placeholder when there are no notifications */
-  border: 4px solid #fe8019;
+  border: 4px solid #ffffff;
  opacity: 0.5;
 }
 
 .control-center .control-center-list {
   /* List of notifications */
-   border: 4px solid #fe8019;
+   border: 4px solid #ffffff;
 background: transparent;
 }
 
 .control-center .control-center-list .notification {
-  box-shadow: 0 0 0 1px rgba(29, 32, 33, 0.3), 0 1px 3px 1px rgba(29, 32, 33, 0.7), 0 2px 6px 2px rgba(29, 32, 33, 0.3);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.7), 0 2px 6px 2px rgba(0, 0, 0, 0.3);
 }
 
 .control-center .control-center-list .notification .notification-default-action,
@@ -361,8 +361,8 @@ background: transparent;
 }
 
 /* Mpris widget */
-@define-color mpris-album-art-overlay rgba(29, 32, 33, 0.55);
-@define-color mpris-button-hover rgba(29, 32, 33, 0.50);
+@define-color mpris-album-art-overlay rgba(0, 0, 0, 0.55);
+@define-color mpris-button-hover rgba(0, 0, 0, 0.50);
 .widget-mpris {
   /* The parent to all players */
 }
@@ -373,7 +373,7 @@ background: transparent;
   margin: 16px 20px;
   background-color: @mpris-album-art-overlay;
   border-radius: 12px;
-  box-shadow: 0px 0px 10px rgba(29, 32, 33, 0.75);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
 }
 
 .widget-mpris .widget-mpris-player button:hover {
@@ -383,7 +383,7 @@ background: transparent;
 
 .widget-mpris .widget-mpris-player .widget-mpris-album-art {
   border-radius: 12px;
-  box-shadow: 0px 0px 10px rgba(29, 32, 33, 0.75);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
 }
 
 .widget-mpris .widget-mpris-player .widget-mpris-title {
