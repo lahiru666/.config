@@ -269,10 +269,10 @@ bindsym $mod+r mode "resize"
 # Status Bar:
 
 #kill status bar
-bindsym $mod+F5 exec pkill waybar
+bindsym $mod+F6 exec pkill waybar
 
 #start waynar
-bindsym $mod+F6 exec  waybar &
+bindsym $mod+F5 exec  waybar &
 
 # Read `man 5 sway-bar` for more information about this section.
 #bar {

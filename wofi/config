@@ -1,7 +1,7 @@
 allow_images=true
 prompt=Search
-width=25%
-height=50%
+width=35%
+height=30%
 location=center
 
 [general]
