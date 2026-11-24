@@ -15,7 +15,7 @@ ln -s ~/.my/.config ~/.config
 sudo apt install  gedit obsidian vlc gimp shotcut qbittorrent gedit zathura lollypop keepassxc 7zip geeqie thunar blueman -y
 
 #packages i run on sway
-sudo apt install sway sway-notification-center swayidle swaylock waybar wofi qt5ct nwg-look -y
+sudo apt install sway sway-notification-center swayidle swaylock waybar wofi qt5ct nwg-look fzf -y
 
 #adding obs-repository
 sudo add-apt-repository ppa:obsproject/obs-studio

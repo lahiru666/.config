@@ -52,3 +52,6 @@ shopt -s histappend               # append, don’t overwrite history file
 
 PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
+#fuzzy finder
+eval "$(fzf --bash)"
+
